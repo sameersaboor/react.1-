@@ -1,19 +1,35 @@
-// import { Link } from "react-router-dom";
-// import OrderSuccess from "./pages/OrderSuccess";
 import {
   BrowserRouter,
   Routes,
   Route,
   useNavigate
 } from "react-router-dom";
+
 import Checkout from "./pages/Checkout";
 import ProductDetails from "./pages/ProductDetails";
 import { useState } from "react";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Products from "./pages/Products";
 import Home from "./pages/Home";
+
+function App() {
+  return (
+    <BrowserRouter basename="/react.1-">
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/product/:id" element={<ProductDetails />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+export default App;
 function Cart({
   cart,
   increaseQuantity,
