@@ -5,7 +5,7 @@ const products = [
     name: "Modern Sofa",
     price: 45000,
     category: "Sofa",
-    image: "/son4.png",
+    image: "/react.1-/son4.png",
     description: "Comfortable modern sofa for your living room.",
   },
 
@@ -14,7 +14,7 @@ const products = [
     name: "Luxury Chair",
     price: 18000,
     category: "Chair",
-    image: "/son1.png",
+    image: "/react.1-/son1.png",
     description: "Stylish chair for your home.",
   },
 
@@ -23,7 +23,7 @@ const products = [
     name: "Wooden Table",
     price: 25000,
     category: "Table",
-    image: "/son3.png",
+    image: "/react.1-/son3.png",
     description: "Elegant wooden table with modern design.",
   },
 
@@ -32,7 +32,7 @@ const products = [
     name: "King Size Bed",
     price: 65000,
     category: "Bed",
-    image: "/son2.png",
+    image: "/react.1-/son2.png",
     description: "Premium bed for a comfortable bedroom.",
   },
 ];
