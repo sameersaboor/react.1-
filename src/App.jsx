@@ -207,7 +207,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter basename="/react.1-">
+    <BrowserRouter >
       <Navbar cart={cart} />
 
       <Routes>
