@@ -5,9 +5,9 @@ function Home() {
   const [currentImage, setCurrentImage] = useState(0);
 
 const images = [
-  "/react.1-/for1.png",
-  "/react.1-/for2.png",
-  "/react.1-/for3.png",
+  "/for1.png",
+  "/for2.png",
+  "/for3.png",
 ];
 
   const nextImage = () => {
