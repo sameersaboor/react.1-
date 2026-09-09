@@ -1,0 +1,13 @@
+apiVersion: tekton.dev/v1
+kind: PipelineRun
+metadata:
+  name: npm-pipeline-run
+spec:
+  pipelineRef:
+    name: npm-pipeline
+  params:
+    - name: repo-url
+      value: https://github.com/sameersaboor/react.1-.git
+  workspaces:
+    - name: shared-workspace
+      emptyDir: {}
